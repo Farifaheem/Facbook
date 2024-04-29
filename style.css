@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(228, 226, 229, 0.456);
+}
+.container{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 40%;
+    margin-left: 5%;
+}
+h1{
+    color: #0866ff;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 40px;
+}
+p{
+    color: black;
+    font-size: 25px;
+    font-weight: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    height: 370px;
+    box-shadow: -10px -10px 15px rgba(0,0,0,0.05), 10px 10px 15px rgba(0,0,0,0.05);
+    border-radius: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+input{
+    width: 350px;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 10px;
+}
+button{
+    background-color:#0866ff;
+    color: white;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    width: 350px;
+    height: 50px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.text{
+    color: #0866ff;
+    font-size: medium;
+}
+hr{
+    border: 1px solid #ccc;
+    width: 300px ;
+    margin: 20px 0px;
+}
+.createaccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(11, 179, 11, 0.786);
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500 ;
+    font-size: larger;
+}span{
+    margin: 20px 0px;
+    font-size: 15px;
+    font-family:Helvetica, sans-serif;
+}
+:hover{
+    outline: #0866ff;
+}
